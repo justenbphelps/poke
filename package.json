@@ -8,8 +8,10 @@
     "start": "bun run util/bot.js",
     "deploy": "bun run util/deploy.js"
   },
+  "engines": {
+    "bun": ">=1.0.0"
+  },
   "dependencies": {
-    "bun": "^0.1.0",
     "discord.js": "^14.18.0",
     "@discordjs/rest": "^2.2.0",
     "@discordjs/builders": "^1.7.0",
